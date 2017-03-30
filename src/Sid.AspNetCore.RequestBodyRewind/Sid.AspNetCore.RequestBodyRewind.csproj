@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
+    <Authors>Sid Zhao</Authors>
+    <Company />
+    <Product />
+    <Description>Sid.AspNetCore.RequestBodyRewind is an extensions to rewindable request body.</Description>
+    <PackageProjectUrl>https://github.com/sidzhao/aspnetcore-request-body-rewind</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sidzhao/aspnetcore-request-body-rewind.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
